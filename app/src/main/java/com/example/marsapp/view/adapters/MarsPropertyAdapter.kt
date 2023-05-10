@@ -10,8 +10,7 @@ import com.bumptech.glide.Glide
 import com.example.marsapp.R
 import com.example.marsapp.data.MarsResponseItem
 
-class MarsPropertyAdapter(private val marsProperties: List<MarsResponseItem>) :
-    RecyclerView.Adapter<MarsPropertyAdapter.MarsPropertyViewHolder>() {
+class MarsPropertyAdapter(private val marsProperties: List<MarsResponseItem>) : RecyclerView.Adapter<MarsPropertyAdapter.MarsPropertyViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MarsPropertyViewHolder {
         val inflater = LayoutInflater.from(parent.context)
